@@ -1,0 +1,4 @@
+- bot functionality to receive and send messages
+- text messages to qwen
+- (optional) image messages to qwen
+- (optional) keep track of user history for context, db/pickefile
