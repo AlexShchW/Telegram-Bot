@@ -6,6 +6,9 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from dotenv import load_dotenv
 
 from utils import make_api_call
+from dummy_http_server import run_http_server
+
+run_http_server() # needed only to satisfy Render's requirements for free deployment
 
 load_dotenv()
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
